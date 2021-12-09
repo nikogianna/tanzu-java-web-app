@@ -1,0 +1,16 @@
+- default: workload
+  description: Deployment namespace for the Scan Templates
+  key: namespace
+  type: string
+- default: 1000m
+  description: Limits describes the maximum amount of cpu resources allowed.
+  key: resources.limits.cpu
+  type: <nil>
+- default: 128Mi
+  description: Requests describes the minimum amount of memory resources required.
+  key: resources.requests.memory
+  type: <nil>
+- default: 250m
+  description: Requests describes the minimum amount of cpu resources required.
+  key: resources.requests.cpu
+  type: <nil>
